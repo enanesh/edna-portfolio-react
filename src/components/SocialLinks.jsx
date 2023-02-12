@@ -10,7 +10,7 @@ const SocialLinks = () => {
             id: 1,
             child: (
                 <>
-                 LinkedIn <FaLinkedin />   
+                 LinkedIn <FaLinkedin size={30} />   
                 </>
             ),
             href: 'https://linkedin.com',
@@ -20,7 +20,7 @@ const SocialLinks = () => {
             id: 2,
             child: (
                 <>
-                 GitHub <FaGithub />   
+                 GitHub <FaGithub size={30} />   
                 </>
             ),
             href: 'https://github.com/enanesh',
@@ -30,7 +30,7 @@ const SocialLinks = () => {
             id: 3,
             child: (
                 <>
-                Email <HiOutlineMail />   
+                Email <HiOutlineMail size={30}/>   
                 </>
             ),
             href: 'mailto:edna@gmail.com',
@@ -40,7 +40,7 @@ const SocialLinks = () => {
             id: 4,
             child: (
                 <>
-                 Resume <BsFillPersonLinesFill />   
+                 Resume <BsFillPersonLinesFill size={30} />   
                 </>
             ),
             href: 'https://linkedin.com',//drag the cv to public folder
@@ -49,7 +49,7 @@ const SocialLinks = () => {
         },
     ]
   return (
-      <div className='flex-col top-[35%] left-0 fixed'>
+      <div className='hidden lg:flex-col  top-[35%] left-0 fixed'>
           <ul>
               {links.map(({ id, child, href, style, download }) => (
               
@@ -58,11 +58,12 @@ const SocialLinks = () => {
                           className='flex justify-between items-center w-full text-white'
                           download={download}
                           target='_blank'
+                          rel='noreferrer'
                           
                       >   
                         {child }</a>
               </li>
-
+ 
 
               ))}
 
