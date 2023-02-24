@@ -8,8 +8,8 @@ const Home = () => {
 
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
                 <div className= "flex  flex-col justify-center h-full">
-                    <h2 className='text-4xl sm"text-7xl font-bold text-white'>
-                         I'm a Full Stack Developer
+                    <h2 className='text-4xl sm:text-7xl font-bold text-white'>
+                        I'm a Full Stack  Developer
                     </h2>
                     <p className=" text-gray-500 py-4 mx-width-md">
                         Hola a todos 
@@ -24,10 +24,10 @@ const Home = () => {
                            
                         </button>
                     </div>
-                </div>
-
+                </div> 
+                {/* image  settings */}
                 <div>
-                    <img src={ednaImage}  alt="my profile picture" className="rounded-2xl mx-auto w-2/3 md:w-full"></img>
+                    <img src={ednaImage}  alt="my profile" className="rounded-2xl mx-auto w-2/3 md:w-full"></img>
                 </div>
             </div>
       </div>
