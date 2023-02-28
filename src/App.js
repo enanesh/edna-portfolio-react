@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import SocialLinks from "./components/SocialLinks";
 import About from "./components/About"
+import Portfolio from "./components/Portfolio";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <NavBar />
       <Home />
       <About />
+      <Portfolio />
       <SocialLinks />
       
 
