@@ -18,50 +18,55 @@ const Portfolio = () => {
     },
      {
       id: 2,
-      src: project2
+       src: project2,
+      title: "Hotel California App",
     },
       {
       id: 3,
-      src: navbar
+        src: navbar,
+      title: "TechBro Ideas Style Blog ",
     },
     {
       id: 4,
-      src: usestate
+      src: usestate,
+      title: "Dinner and Drinks ",
     },
         {
       id: 5,
-      src: installNode
+          src: installNode,
+      title: "Dinner and Drinks ",
     },
     {
       id: 6,
-      src:arrayDestruct
+      src: arrayDestruct,
+      title: "Dinner and Drinks ",
     },
 
   ]
 
   return (
-    <div name="portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'>
+    <div name="portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full text-white  pb-20'>
       
-      <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
-        <div className='pb-8'>
-          <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
+      <div className='max-w-screen-xl p-4 mx-auto flex flex-col justify-center w-full h-full'>
+        <div className='pb-14'>
+          <p className='text-4xl font-bold inline border-b-4 border-purple-500'>Portfolio</p>
           
-          <p className='py-6'>Check out some of my workright here  </p>
+          <p className='py-6 text-xl'>Check out some of my workright here  </p>
           
 
       </div>
       <div  className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
       
       
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src,title }) => (
         
-          <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
-            <h1 className='text-4xl text-center p-4'> Project 1 </h1>
-          <img src={src} alt=" "  className='rounded-md duration-200 hover:scale-105'/>
+          <div key={id} className='shadow-md shadow-purple-600 rounded-lg'>
+            <h1 className='text-2xl text-center p-2'> {title}</h1>
+          <img src={src} alt=" "  className='rounded-md duration-200 hover:scale-105 p-4'/>
 
-        <div className='flex item-center justify-center'>
-          <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Deploy</button>
-          <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'> Github Repo</button>
+        <div className='flex item-center justify-center text-lg '>
+          <button className='w-1/2 px-6 m-4 duration-200 hover:scale-105  border-r-2 border-purple-500 '>Deploy </button>
+          <button className='w-1/2 px-6  m-4 duration-200 hover:scale-105 '> Github </button>
         </div>
         
       </div>
