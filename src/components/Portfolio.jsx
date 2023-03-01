@@ -60,13 +60,13 @@ const Portfolio = () => {
       
           {portfolios.map(({ id, src,title }) => (
         
-          <div key={id} className='shadow-md shadow-purple-600 rounded-lg'>
-            <h1 className='text-2xl text-center p-2'> {title}</h1>
-          <img src={src} alt=" "  className='rounded-md duration-200 hover:scale-105 p-4'/>
+          <div key={id} className='shadow-lg shadow-purple-600 rounded-lg'>
+            <h1 className='text-2xl text-center p-2 bg-gradient-to-r from-purple-900 to bg-purple-600 rounded-lg'> {title}</h1>
+          <img src={src} alt=" "  className='rounded-lg duration-200 hover:scale-105 p-4 '/>
 
-        <div className='flex item-center justify-center text-lg '>
-          <button className='w-1/2 px-6 m-4 duration-200 hover:scale-105  border-r-2 border-purple-500 '>Deploy </button>
-          <button className='w-1/2 px-6  m-4 duration-200 hover:scale-105 '> Github </button>
+        <div className='flex item-center justify-center border-r-2  border-purple-500 text-lg '>
+          <button className='w-1/2 px-4 m-4 duration-200 hover:scale-105   '>Deploy </button>
+          <button className='w-1/2 px-4  m-4 duration-200 hover:scale-105 '> Github </button>
         </div>
         
       </div>
