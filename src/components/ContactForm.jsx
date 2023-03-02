@@ -1,42 +1,3 @@
-// const ContactForm = () => {
-//   return (
-//       <div name="contact" className='w-full h-screen bg-gradient-to-b from-black to bg-gray-800 p-4 text-white'>
-//           <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full
-//           '>
-//               <div className='pb-8'>
-//                   <p className='text-4xl font-bold inline border-b-4 border-gray-500 '>Contact</p>
-//                   <p className='py-6'>Submit the form below to get in touch with me  </p>
-//               </div>
-
-//               <div className='flex justify-center items-center'>
-//                   <form action="" className='flex flex-col w-full md:1/2'>
-
-//                       {/* Name part of the form */}
-//                       <input type="text"
-//                           name="name"
-//                           placeholder='Enter your name' className='p-2 bg-transparent border-2 rounded-md text-white focus-outline-none'></input>
-
-//                         {/* email part of the form */}
-//                       <input type="text"
-//                           name="email"
-//                           placeholder='Enter your email' className='my-4 p-2 bg-transparent border-2 rounded-md text-white focus-outline-none'></input>
-
-//                       {/* message part of the form */}
-//                       <textarea type="text"
-//                           name="message"
-//                           placeholder='Enter your message'
-//                           rows="10"
-//                           className='p-2 bg-transparent border-2 rounded-md text-white focus-outline-none'></textarea>
-
-//                         <button className='text-white bg-gradient-to-b from-purple-700 to-pink-500 px-6 py-3 rounded-md hover:scale-110 duration-300 text-lg p'>Lets talk!</button>
-//                   </form>
-//               </div>
-//           </div>
-//     </div>
-//   )
-// }
-
-// export default ContactForm
 
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from "../utils/helpers";
@@ -62,23 +23,7 @@ function ContactForm() {
       setShowAlert(false);
     }
   };
-  // const handleDocumentClick = (event) => {
-  //   if (inputRef.current && !inputRef.current.contains(event.target)) {
-  //     setShowAlert(false);
-  //   }
-  // };
-  //   useEffect(() => {
-  //   const handleDocumentClick = (event) => {
-  //     if (inputRef.current && !inputRef.current.contains(event.target)) {
-  //     setShowAlert(false);
-  //   }
-  // };
-  // document.addEventListener("click", handleDocumentClick);
-
-  // return () => {
-  //   document.removeEventListener("click", handleDocumentClick);
-  // };
-  //   }, []);
+ 
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
@@ -102,10 +47,11 @@ function ContactForm() {
     if (!validateEmail(email) || !userName) {
       setErrorMessage("Enter a valid email e.g :email@email.com");
       // We want to exit out of this code block if something is wrong so that the user can correct it
-      return;
-      // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
-    }
-
+        return;
+        
+        
+   
+    }if (!message)
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setUserName("");
     setEmail("");
@@ -119,16 +65,17 @@ function ContactForm() {
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full ">
         <div className="pb-8">
-          <p className="text-4xl text-white font-bold inline border-b-4 border-gray-500">
+          <p className="text-4xl text-white font-bold inline border-b-4 border-purple-500">
             Contact{" "}
           </p>
-          <p className="py-6"> Submit the form below to get in touch with me</p>
+          <p className="py-4 text-xl"> Submit the form below to get in touch with me.</p>
         </div>
 
-              <div className="flex justify-center items-center">
-                  
-
-          <form action=''className="flex flex-col w-full md:1/2">
+        <div className="flex justify-center items-center">
+          <form
+            action="https://getform.io/f/6d94ecd1-b25a-46a8-9368-7a8fb8c6b31e"
+            className="flex flex-col w-full md:1/2"
+          >
             <p className="text-xl">Name:</p>
             <input
               value={userName}
@@ -172,7 +119,7 @@ function ContactForm() {
             <button
               type="button"
               onClick={handleFormSubmit}
-              className="  text-white w-fit px-6 py-3 my-2 flex items-center  rounded-md bg-gradient-to-r from-purple-800 to-pink-500"
+              className="text-white w-fit px-6 py-3 my-2 flex items-center  rounded-md bg-gradient-to-r from-purple-800 to-pink-500"
             >
               Submit
             </button>
