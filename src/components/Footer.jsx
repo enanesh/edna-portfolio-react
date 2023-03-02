@@ -36,7 +36,7 @@ const Footer = () => {
                 </>
                 
             ),
-            href: 'mailto:edna.ganesha@gmail.com',
+            href: 'mailto:edna@gmail.com',
          
         },
         // {

@@ -1,7 +1,7 @@
 import React from 'react';
 import ednaImage from '../assets/ednaImage.png';
 import { TiArrowRightOutline } from "react-icons/ti";
-import { Link } from "react-scroll";
+import { Link } from "react-scroll";//Link to the npm library to set the links in the app.
 
 
 const Home = () => {

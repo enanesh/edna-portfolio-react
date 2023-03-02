@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import { Link } from "react-scroll";
+import { Link } from "react-scroll";//Link to the npm library to set the links in the app.
 
 
 const Navigation = () => {
@@ -53,8 +53,10 @@ const Navigation = () => {
                       to={link}
                       smooth duration={500}>
                 {link}
-              </Link>
-            </li>
+                  </Link>
+                  
+              </li>
+              
           ))}
         </ul>
 

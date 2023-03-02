@@ -1,4 +1,3 @@
-
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from "../utils/helpers";
 import { useState, useRef, useEffect } from "react";
@@ -23,7 +22,6 @@ function ContactForm() {
       setShowAlert(false);
     }
   };
- 
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
@@ -45,15 +43,13 @@ function ContactForm() {
 
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
     if (!validateEmail(email) || !userName) {
-      setErrorMessage("Enter a valid email e.g :email@email.com");
+      setErrorMessage("Enter a valid email e.g: email@email.com");
       // We want to exit out of this code block if something is wrong so that the user can correct it
-        return;
-        
-        
-   
-    }if (!message)
-    // If everything goes according to plan, we want to clear out the input after a successful registration.
-    setUserName("");
+      return;
+    }
+    if (!message)
+      // If everything goes according to plan, we want to clear out the input after a successful registration.
+      setUserName("");
     setEmail("");
     setMessage("");
   };
@@ -68,7 +64,10 @@ function ContactForm() {
           <p className="text-4xl text-white font-bold inline border-b-4 border-purple-500">
             Contact{" "}
           </p>
-          <p className="py-4 text-xl"> Submit the form below to get in touch with me.</p>
+          <p className="py-4 text-xl">
+            {" "}
+            Submit the form below to get in touch with me.
+          </p>
         </div>
 
         <div className="flex justify-center items-center">
@@ -98,7 +97,9 @@ function ContactForm() {
             />
             {errorMessage && (
               <div>
-                <p className="error-text">{errorMessage}</p>
+                <p className="error-text py-2 bg-pink-500 rounded">
+                  {errorMessage}
+                </p>
               </div>
             )}
 
@@ -113,8 +114,12 @@ function ContactForm() {
               ref={inputRef}
               className="p-2 bg-transparent border-2 rounded-md text-white focus-outline-none"
             />
-
-            {showAlert && <div>Please enter a value!</div>}
+            
+            {showAlert && (
+              <div className="py-2 bg-pink-500 rounded">
+                Please enter a value!
+              </div>
+            )}
 
             <button
               type="button"
