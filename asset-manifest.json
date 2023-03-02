@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/edna-portfolio-react/static/css/main.53cdb580.css",
-    "main.js": "/edna-portfolio-react/static/js/main.71959cf6.js",
+    "main.css": "/edna-portfolio-react/static/css/main.0929efa1.css",
+    "main.js": "/edna-portfolio-react/static/js/main.73e1e1ac.js",
     "static/media/ednaImage.png": "/edna-portfolio-react/static/media/ednaImage.c591f9caba82ac2ced2a.png",
     "static/media/project2.jpg": "/edna-portfolio-react/static/media/project2.c5c18a4b470f5030334c.jpg",
     "static/media/graphql.png": "/edna-portfolio-react/static/media/graphql.fc6b9451733c620ceb86.png",
@@ -17,11 +17,11 @@
     "static/media/css.png": "/edna-portfolio-react/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/edna-portfolio-react/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/edna-portfolio-react/index.html",
-    "main.53cdb580.css.map": "/edna-portfolio-react/static/css/main.53cdb580.css.map",
-    "main.71959cf6.js.map": "/edna-portfolio-react/static/js/main.71959cf6.js.map"
+    "main.0929efa1.css.map": "/edna-portfolio-react/static/css/main.0929efa1.css.map",
+    "main.73e1e1ac.js.map": "/edna-portfolio-react/static/js/main.73e1e1ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.53cdb580.css",
-    "static/js/main.71959cf6.js"
+    "static/css/main.0929efa1.css",
+    "static/js/main.73e1e1ac.js"
   ]
 }
