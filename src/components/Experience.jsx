@@ -24,7 +24,7 @@ const Experience = () => {
             style:'shadow-blue-500'
         },
         {
-            id: 1,
+            id: 3,
             src: javascript,
             title: 'JAVASCRIPT',
             style:'shadow-yellow-500'
@@ -36,20 +36,20 @@ const Experience = () => {
             style:'shadow-blue-600'
         },
         {
-            id: 1,
+            id: 5,
             src: graphql,
             title: 'GRAPHQL',
             style:'shadow-pink-400'
         }
         ,
         {
-            id: 1,
+            id: 6,
             src: tailwind,
             title: 'TAILWIND',
             style:'shadow-sky-400'
         },
          {
-            id: 1,
+            id: 7,
             src: github,
             title: 'Github',
             style:'shadow-gray-400'
@@ -57,9 +57,9 @@ const Experience = () => {
 
     ]
   return (
-      <div name="experience" className="bg-gradient-to-b from-gray-800 to-black w-full h-screen">
+      <div name="experience" className="bg-gradient-to-b p-14 from-gray-800 to-black w-full h-screen pb-20">
           
-        <div className='max-w-screen-lg mx-aut p-4 flex flex-col justify-center w-full h-full text-white'>
+        <div className='max-w-screen-xl mx-aut p-16 flex flex-col justify-center w-full h-full text-white'>
               <div>
                   <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'> Experience </p> 
                   <p className='py-6'> These are technologies I've worked with  </p>

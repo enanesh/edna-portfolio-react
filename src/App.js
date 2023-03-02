@@ -1,24 +1,24 @@
 
 import Home from "./components/Home";
-import NavBar from "./components/NavBar";
-import SocialLinks from "./components/SocialLinks";
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 import About from "./components/About"
 import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
-// import ContactForm from "./components/ContactForm";
+import ContactForm from "./components/ContactForm";
 
 
 function App() {
 
   return (
     <div>
-      <NavBar />
+      <Navigation />
       <Home />
       <About />
       <Portfolio />
-      <SocialLinks />
+      <Footer />
       <Experience />
-      {/* <ContactForm /> */}
+      <ContactForm />
       
 
     </div>

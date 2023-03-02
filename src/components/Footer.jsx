@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 // import {BsFillPersonLinesFill} from 'react-icons/bs'
 
-const SocialLinks = () => {
+const Footer = () => {
 
     const links = [
         {
@@ -80,4 +80,4 @@ const SocialLinks = () => {
   )
 }
 
-export default SocialLinks
+export default Footer
