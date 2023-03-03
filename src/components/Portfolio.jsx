@@ -1,10 +1,11 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import usestate from "../assets/portfolio/usestate.jpg";
 import project1 from "../assets/portfolio/project1.jpg";
 import project2 from "../assets/portfolio/project2.jpg";
+import project3 from "../assets/portfolio/project3.png";
+import project4 from "../assets/portfolio/project4.png";
+import project5 from "../assets/portfolio/project5.png";
+import project6 from "../assets/portfolio/project6.png";
+
 
 const Portfolio = () => {
   const portfolios = [
@@ -24,31 +25,31 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: navbar,
+      src: project3,
       title: "TechBro Ideas Style Blog ",
-      deploy: "https://sely1724.github.io/dinner-and-drinks/",
-      linkRepo: "https://github.com/sely1724/dinner-and-drinks",
+      deploy: "https://cms-styleblog-mvc.herokuapp.com/",
+      linkRepo: "https://github.com/enanesh/cms-styleblog-mvc",
     },
     {
       id: 4,
-      src: usestate,
-      title: "Dinner and Drinks ",
-      deploy: "https://sely1724.github.io/dinner-and-drinks/",
-      linkRepo: "https://github.com/sely1724/dinner-and-drinks",
+      src: project4,
+      title: "Contact Cards PWA ",
+      deploy: "https://cac-pwa-directory-cards.herokuapp.com/",
+      linkRepo: "https://github.com/enanesh/pwa-directory-cards",
     },
     {
       id: 5,
-      src: installNode,
-      title: "Dinner and Drinks ",
-      deploy: "https://sely1724.github.io/dinner-and-drinks/",
-      linkRepo: "https://github.com/sely1724/dinner-and-drinks",
+      src:project5,
+      title: "Code Master Quiz ",
+      deploy: "https://enanesh.github.io/code-quiz-js/",
+      linkRepo: "https://github.com/enanesh/code-quiz-js",
     },
     {
       id: 6,
-      src: arrayDestruct,
-      title: "Dinner and Drinks ",
-      deploy: "https://sely1724.github.io/dinner-and-drinks/",
-      linkRepo: "https://github.com/sely1724/dinner-and-drinks",
+      src: project6,
+      title: "Weather Dashboard  ",
+      deploy: "https://enanesh.github.io/weather-dashboard-js/",
+      linkRepo: "https://github.com/enanesh/weather-dashboard-js",
     },
   ];
 
@@ -79,7 +80,7 @@ const Portfolio = () => {
               />
 
               <div className="flex item-center justify-center border-r-2  border-purple-500 text-lg ">
-                <button className="w-1/2 px-4 m-4  justify-center duration-200 hover:scale-105 hover:bg-pink-500">
+                <button className="w-1/2 px-4 m-4  justify-center duration-200 hover:scale-105 hover:bg-pink-500 rounded-md">
                   <a href={deploy}>Deploy</a>
                 </button>
                 <button className="w-1/2 px-4  m-4 duration-200 hover:scale-105 hover:bg-pink-500 rounded ">
