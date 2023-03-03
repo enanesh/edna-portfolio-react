@@ -13,7 +13,7 @@
 Welcome to my personal portfolio! This repository contains the code and assets for my personal website, which showcases my skills, projects, and experience.
 
  
- This app was deployed using Github pages:https://text-editor-pwa-challenge.herokuapp.com/ 
+ This app was deployed using Github pages:https://enanesh.github.io/edna-portfolio-react/
 
 
 
@@ -86,19 +86,28 @@ In the terminal run the command `npm run start`
 
 ## Credits
 
-- Node.js : https://www.stanleyulili.com/node/node-modules-import-and-use-functions-from-another-file/
-- Express : https://expressjs.com/
-- Express-session : https://www.npmjs.com/package/express-session
-- nodemon : https://www.npmjs.com/package/nodemon
-- codemirror: https://www.npmjs.com/package/codemirror
-- babel:  https://babeljs.io/
+- Node.js  https://www.stanleyulili.com/node/node-modules-import-and-use-functions-from-another-file/
+- Express: https://expressjs.com/
+
+- nodemon: https://www.npmjs.com/package/nodemon
+- webvitals: https://web.dev/vitals/
+- react: https://reactjs.org/
+- react-scroll: https://www.npmjs.com/package/react-scroll
+- react-scripts: https://www.npmjs.com/package/react-scripts
+- react-icons: https://react-icons.github.io/react-icons/
+- react-dom : https://www.npmjs.com/package/react-dom
+- Yash Patel: https://www.youtube.com/watch?v=LpZrAjU6Hhk&t=6370s
+
 
 ## Technology Used
 - JavaScript
 - Express node library
 - nodemon
-- Codemirror
-- babel 
+- react
+- react-icons
+- react-dom
+- react-scroll
+- web-vitals
 
 
 Contributing
