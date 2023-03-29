@@ -39,7 +39,11 @@ const Navigation = () => {
     return (
       <div className="flex justify-between items-center w-full h20 px-6 bg-gradient-to-r from-black to-purple-800 text-white fixed">
         <div>
-          <h1 className="text-5xl font-signature py-6 ml-2">Edna Gonzalez </h1>
+          <Link to={"home"}>
+            <h1 className="text-5xl font-signature py-6 ml-2">
+              Edna Gonzalez{" "}
+            </h1>
+          </Link>
         </div>
         {/* maps the array  to the ul list  */}
         <ul className="hidden md:flex">
@@ -48,15 +52,10 @@ const Navigation = () => {
               key={id}
               className="px-4 cursor-pointer- text-lg hover:bg-pink-500 rounded-md p-4 text-white  capitalize hover:scale-105 duration-200"
             >
-              
-                  <Link
-                      to={link}
-                      smooth duration={500}>
+              <Link to={link} smooth duration={500}>
                 {link}
-                  </Link>
-                  
-              </li>
-              
+              </Link>
+            </li>
           ))}
         </ul>
 
