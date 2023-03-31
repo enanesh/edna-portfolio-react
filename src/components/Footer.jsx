@@ -64,7 +64,7 @@ const Footer = () => {
             <a
               href={href}
               className="flex justify-between items-center w-full text-white"
-              download= "./EGGR_Resume.pdf"
+              download= "EGGR_Resume"
               target="_blank" //allows to open new tab
               rel="noreferrer" //Avoid errors in terminal
             >
