@@ -26,7 +26,7 @@ Welcome to my personal portfolio! This repository contains the code and assets f
 - [Technology Used](#technology-used)
 - [License](#license)
 
-
+ 
 
 ## Features
 The website includes the following features:
