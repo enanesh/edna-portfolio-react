@@ -42,7 +42,7 @@ const Footer = () => {
             Resume <BsFillPersonLinesFill size={30} />
           </>
         ),
-        href: "/Edna_Resume.pdf",
+        href: "/resume.pdf",
         style: "rounded-br-md",
         download: true,
       },
