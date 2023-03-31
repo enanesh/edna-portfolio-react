@@ -54,8 +54,8 @@ const Portfolio = () => {
       description:
         "CodeMaster app is a fast-paced timed quiz to test your coding skills and knowledge.",
       title: "Code Master Quiz ",
-      deploy: "https://enanesh.github.io/code-quiz-js/",
-      linkRepo: "https://github.com/enanesh/code-quiz-js",
+      deploy: "https://enanesh.github.io/code-master-quiz/",
+      linkRepo: "https://github.com/enanesh/code-master-quiz",
     },
 
     {
