@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/edna-portfolio-react/static/css/main.8dc8c3af.css",
-    "main.js": "/edna-portfolio-react/static/js/main.10dab602.js",
+    "main.js": "/edna-portfolio-react/static/js/main.bc085b2d.js",
     "static/media/project7.png": "/edna-portfolio-react/static/media/project7.ab257358e7a2a708a6c5.png",
     "static/media/project5.png": "/edna-portfolio-react/static/media/project5.63e5158886041b10e9ac.png",
     "static/media/ednaImage.png": "/edna-portfolio-react/static/media/ednaImage.c591f9caba82ac2ced2a.png",
@@ -21,10 +21,10 @@
     "static/media/javascript.png": "/edna-portfolio-react/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/edna-portfolio-react/index.html",
     "main.8dc8c3af.css.map": "/edna-portfolio-react/static/css/main.8dc8c3af.css.map",
-    "main.10dab602.js.map": "/edna-portfolio-react/static/js/main.10dab602.js.map"
+    "main.bc085b2d.js.map": "/edna-portfolio-react/static/js/main.bc085b2d.js.map"
   },
   "entrypoints": [
     "static/css/main.8dc8c3af.css",
-    "static/js/main.10dab602.js"
+    "static/js/main.bc085b2d.js"
   ]
 }
