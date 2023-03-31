@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full h-screen  bg-gradient-to-b from-gray-800 to-black text-white"
     >
       <div className="max-w-screen-xl p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -16,24 +16,28 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Hi there! My name is Edna Gonalez, and I'm a full-stack developer who
-          was born and raised in Mexico City. Recently, I made the decision to
-          switch career paths from accounting to pursue my passion for coding
-          and web development. This decision has been both challenging and
-          rewarding, and I'm excited to share my journey with you.
+          Hi there! My name is Edna Gonzalez, and I am a full-stack
+          developer based in Seattle, originally from Mexico City. I made the
+          decision to switch my career from accounting to pursue my passion for
+          coding and web development, which has been both challenging and
+          rewarding.
         </p>
         <br />
         <p className="text-xl">
-          As a full-stack developer, I have experience with both front-end and
-          back-end technologies. I enjoy creating visually appealing and
-          user-friendly interfaces using HTML, CSS, and JavaScript, and I also
-          have experience working with various back-end technologies such as
-          Node.js and Python. I'm always eager to learn new technologies and
-          programming languages to further expand my skill set. As someone who
-          is new to the industry, I'm constantly seeking out opportunities to
-          learn from and collaborate with other developers. I'm excited to be a
-          part of this ever-growing field and look forward to the new challenges
-          and opportunities that lie ahead.
+          With my experience in front-end and back-end technologies, I have a
+          strong foundation in creating visually appealing and user-friendly
+          full-stack applications. I have worked with various technologies,
+          including JavaScript, Python, React, Node.js, MySQL, MongoDB, Express,
+          GraphQL, and Git. As an avid learner, I am always looking for new
+          technologies and programming languages to expand my skill set.
+        </p>
+        <p className='text-xl mt-4'>
+          Being new to the industry, I am eager to collaborate with other
+          developers and learn from their experiences. I am thrilled to be a
+          part of this ever-growing field and excited to take on new challenges
+          and opportunities. I invite you to explore my portfolio to learn more
+          about my projects and experience. Thank you for your time, and I look
+          forward to hearing from you.
         </p>
       </div>
     </div>

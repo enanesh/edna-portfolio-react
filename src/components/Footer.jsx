@@ -33,7 +33,7 @@ const Footer = () => {
             Email <HiOutlineMail size={35} />
           </>
         ),
-        href: "mailto:edna@gmail.com",
+        href: "mailto:ganesha.edna@gmail.com",
       },
       {
         id: 4,
@@ -42,7 +42,7 @@ const Footer = () => {
             Resume <BsFillPersonLinesFill size={30} />
           </>
         ),
-        href: "/resume.pdf",
+        href: "/Edna_Resume.pdf",
         style: "rounded-br-md",
         download: true,
       },
