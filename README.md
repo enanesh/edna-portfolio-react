@@ -45,14 +45,15 @@ The website includes the following features:
 ![Screenshot 2023-03-02 at 5 06 38 PM](https://user-images.githubusercontent.com/111031708/222608870-902ddb43-1140-488e-97c5-6483d2b6f97d.png)
 
 ### About Me 
-![Screenshot 2023-03-02 at 5 06 46 PM](https://user-images.githubusercontent.com/111031708/222608988-b18a189f-d60d-4e51-8923-1bf957794abe.png)
+
+![Screenshot 2023-03-31 at 5 03 22 PM](https://user-images.githubusercontent.com/111031708/229254618-c1331336-82b7-4e4f-98d7-e369320b6c8a.png)
+
+
 
 
 ### Portfolio 
-![Screenshot 2023-03-02 at 5 06 54 PM](https://user-images.githubusercontent.com/111031708/222608915-1ed176b3-2c8b-454e-835f-5af15e7f1005.png)
+![Screenshot 2023-03-31 at 4 59 09 PM](https://user-images.githubusercontent.com/111031708/229253996-94805322-cf85-4a23-874c-70246b870766.png)
 
-### Portfolio 
-![Screenshot 2023-03-02 at 5 07 00 PM](https://user-images.githubusercontent.com/111031708/222609128-90edbe6f-4d44-4147-b939-5429fb5a8a52.png)
 
 
 ### Contact Form 
